@@ -50,7 +50,7 @@ find_package(CUDA REQUIRED)
 find_package(OpenCV 3 REQUIRED)
 find_package(Doxygen)
 
-set(WITH_PYTHON3 False CACHE BOOL "Use Python3") 
+set(WITH_PYTHON3 True CACHE BOOL "Use Python3") 
 ### for python 3 use this:
 find_package(Boost 1.67.0)
 if( Boost_FOUND ) #new syntax is needed
